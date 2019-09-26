@@ -9,15 +9,17 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 
-import { LoginFormComponent } from './login-form';
+import { LoginFormComponent } from './components/login/login';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './material.module';
+import { TableComponentComponent } from './table-component/table-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    TableComponentComponent
   ],
   imports: [
     BrowserModule,
